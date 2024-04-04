@@ -1,7 +1,7 @@
 import 'mocha ';
 import { assert } from 'chai';
 
-import { helloWorld, goodBye } from '../src/index';
+import { HelloWorld, GoodBye } from '../src/index';
 import npmPackage from '../src/index';
 
 describe('NPM Package', () => {
@@ -16,24 +16,24 @@ describe('NPM Package', () => {
 
 describe('Hello World Function', () => {
   it('should be a function', () => {
-    assert.isFunction(helloWorld);
+    assert.isFunction(HelloWorld);
   });
 
   it('should return the hello world message', () => {
     const expected = 'Hello World from my example modern npm package!';
-    const actual = helloWorld();
+    const actual = HelloWorld();
     assert.equal(actual, expected);
   });
 });
 
 describe('Goodbye Function', () => {
   it('should be a function', () => {
-    assert.isFunction(goodBye);
+    assert.isFunction(GoodBye);
   });
 
   it('should return the goodbye message', () => {
     const expected = 'Goodbye from my example modern npm package!';
-    const actual = goodBye();
+    const actual = GoodBye();
     assert.equal(actual, expected);
   });
 });
