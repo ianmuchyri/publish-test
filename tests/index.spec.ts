@@ -36,4 +36,5 @@ describe('Goodbye Function', () => {
     const actual = GoodBye();
     assert.equal(actual, expected);
   });
+  
 });
