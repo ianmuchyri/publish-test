@@ -11,4 +11,5 @@ export function goodBye() {
 export default {
   helloWorld,
   goodBye,
+  
 };
