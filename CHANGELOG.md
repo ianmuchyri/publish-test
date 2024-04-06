@@ -1,5 +1,11 @@
 # @ianmuchyri/publish-test
 
+## 0.3.2
+
+### Patch Changes
+
+- 5d7a2a9: fix:fix dependency
+
 ## 0.3.1
 
 ### Patch Changes
