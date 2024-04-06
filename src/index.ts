@@ -1,5 +1,5 @@
 export function Hello() {
-  const message = 'Hello World from my example modern npm package!';
+  const message = 'Hello from my example modern npm package!';
   return message;
 }
 
