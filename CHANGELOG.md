@@ -1,5 +1,11 @@
 # @ianmuchyri/publish-test
 
+## 0.3.1
+
+### Patch Changes
+
+- 71bcb69: fix: update package.json
+
 ## 0.3.0
 
 ### Minor Changes
