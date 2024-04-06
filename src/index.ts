@@ -1,4 +1,4 @@
-export function HelloWorld() {
+export function Hello() {
   const message = 'Hello World from my example modern npm package!';
   return message;
 }
@@ -9,6 +9,6 @@ export function GoodBye() {
 }
 
 export default {
-  HelloWorld,
+  Hello,
   GoodBye,
 };
