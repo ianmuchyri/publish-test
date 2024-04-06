@@ -12,7 +12,8 @@
     "test": "echo \"No test specified\"",
     "clean": "rm -rf ./dist",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "npm run build -- --watch"
+    "dev": "npm run build -- --watch",
+    "release": "turbo run build && changeset publish"
   },
   "release": {
     "branches": [
