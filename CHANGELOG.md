@@ -1,5 +1,15 @@
 # @ianmuchyri/publish-test
 
+## 0.3.4
+
+### Patch Changes
+
+- 1ef8df0: sadfaf
+- b881098: remove dist
+- b37f5f7: dasfdsa
+- 9595a4e: adsfas
+- e7c0cd2: update message
+
 ## 0.3.2
 
 ### Patch Changes
